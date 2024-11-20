@@ -1,0 +1,29 @@
+{
+	"name": "rollup-hw2",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "rollup -c -w",
+		"build": "rollup -c"
+	},
+	"keywords": [],
+	"author": "Maks Safonov",
+	"license": "ISC",
+	"description": "",
+	"babel": {
+		"presets": [
+			"@babel/preset-env"
+		]
+	},
+	"devDependencies": {
+		"@babel/core": "^7.26.0",
+		"@babel/preset-env": "^7.26.0",
+		"@rollup/plugin-babel": "^6.0.4",
+		"@rollup/plugin-image": "^3.0.3",
+		"@rollup/plugin-node-resolve": "^15.3.0",
+		"rollup": "^2.63.0",
+		"rollup-plugin-livereload": "^2.0.5",
+		"rollup-plugin-serve": "^1.1.1",
+		"rollup-plugin-styles": "^4.0.0"
+	}
+}
